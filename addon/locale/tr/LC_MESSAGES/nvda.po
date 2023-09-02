@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'Uygulama Tuşunu yeniden eşle' '0.3'\n"
+"Project-Id-Version: 'Uygulama Tuşunu yeniden eşle'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2022-07-10 19:37+0200\n"
-"PO-Revision-Date: 2022-07-10 22:06+0300\n"
+"POT-Creation-Date: 2023-08-30 19:12+0100\n"
+"PO-Revision-Date: 2023-08-30 22:49+0100\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -16,37 +16,48 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#. add-on Name/identifier, internal for NVDA
-#: buildVars.py:19 addon\globalPlugins\RemapKeyAplication\__init__.py:21
-#: addon\globalPlugins\RemapKeyAplication\__init__.py:25
-#: addon\globalPlugins\RemapKeyAplication\__init__.py:29
-msgid "RemapKeyAplication"
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:25
+msgid "Emulates applications key"
+msgstr "Uygulama tuşunu Taklit eder"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:26
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:33
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:40
+msgid "RemapApplicationsKey"
 msgstr "Uygulama Tuşunu Yeniden Eşle"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:32
+msgid "Emulates a mouse left click on focus"
+msgstr "Odak üzerinde farenin sol tıklamasını taklit eder"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
+msgid "Emulates a mouse right click on focus"
+msgstr "Odak üzerinde farenin sağ tıklamasını taklit eder"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
-msgid "RemapKeyAplication para NVDA"
-msgstr "NVDA için Uygulama Tuşunu yeniden eşle"
+msgid "Remap Applications key"
+msgstr "Uygulama Tuşunu Yeniden Eşle"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
-msgid "Simula la tecla aplicaciones"
-msgstr "Uygulama tuşunu Taklit Et"
+msgid "Add-on to emulate applications key with other keys."
+msgstr "Uygulama tuşunu diğer tuşlarla taklit etmek için eklenti."
 
-#: addon\globalPlugins\RemapKeyAplication\__init__.py:21
-msgid "Simular tecla Aplicaciones"
-msgstr "Uygulama Tuşunu Taklit Eder"
+#~ msgid "RemapKeyAplication para NVDA"
+#~ msgstr "NVDA için Uygulama Tuşunu yeniden eşle"
 
-#: addon\globalPlugins\RemapKeyAplication\__init__.py:25
-msgid "Simular clic izquierdo del ratón al foco"
-msgstr "Odaklanmak için farenin sol tıklamasını taklit eder"
+#~ msgid "Simular tecla Aplicaciones"
+#~ msgstr "Uygulama Tuşunu Taklit Eder"
 
-#: addon\globalPlugins\RemapKeyAplication\__init__.py:29
-msgid "Simular clic derecho del ratón al foco"
-msgstr "Odaklanmak için sağ fare tıklamasını taklit eder"
+#~ msgid "Simular clic izquierdo del ratón al foco"
+#~ msgstr "Odaklanmak için farenin sol tıklamasını taklit eder"
+
+#~ msgid "Simular clic derecho del ratón al foco"
+#~ msgstr "Odaklanmak için sağ fare tıklamasını taklit eder"

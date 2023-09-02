@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
+# RemapApplicationsKey add-on: Key presses functions
 # Copyright (C) 2021 Héctor J. Benítez Corredera <xebolax@gmail.com>
+# Copyright (C) 2023 Rui Fontes <rui.fontes@tiflotecnia.com>
 # This file is covered by the GNU General Public License.
 #
-# Codigo obtenido de:
-# https://stackoverflow.com/questions/13564851/how-to-generate-keyboard-events (respuesta 1)
+# Code get from:
+# https://stackoverflow.com/questions/13564851/how-to-generate-keyboard-events (answer 1)
 #
-# Codigos de teclado Microsoft.
-# https://docs.microsoft.com/es-es/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
+# Microsoft keyboard codes.
+# https://docs.microsoft.com/en/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
+
+# Import necessary modules
 import ctypes
 from ctypes import wintypes
 
@@ -24,9 +28,9 @@ KEYEVENTF_SCANCODE    = 0x0008
 MAPVK_VK_TO_VSC = 0
 
 # msdn.microsoft.com/en-us/library/dd375731
-VK_LBUTTON = 0x01 # Botón izquierdo del mouse
-VK_RBUTTON = 0x02 # Botón derecho del mouse
-VK_APPS = 0x5D # Tecla Aplicaciones (teclado natural)
+VK_LBUTTON = 0x01 # Mouse left button
+VK_RBUTTON = 0x02 # Mouse right button
+VK_APPS = 0x5D # Applications key (Natural keyboard)
 
 # C struct definitions
 

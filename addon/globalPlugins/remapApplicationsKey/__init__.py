@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
+# NVDA add-on to emulate Applications key and mouse clicks
 # Copyright (C) 2021 Héctor J. Benítez Corredera <xebolax@gmail.com>
+# Copyright (C) 2023 Rui Fontes <rui.fontes@tiflotecnia.com>
 # This file is covered by the GNU General Public License.
 
-# import the necessary modules (NVDA)
+# import the necessary modules
 import globalPluginHandler
 import addonHandler
 import api
@@ -18,21 +20,30 @@ from . import keyFunc
 addonHandler.initTranslation()
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	@script(gesture=None, description= _("Simular tecla Aplicaciones"), category= _("RemapKeyAplication"))
+	@script(
+		gesture=None,
+		description= _("Emulates applications key"),
+		category= _("RemapApplicationsKey"))
 	def script_RunAplicationn(self, gesture):
-				HiloComplemento(1).start()
+				executeFunction(1).start()
 
-	@script(gesture=None, description= _("Simular clic izquierdo del ratón al foco"), category= _("RemapKeyAplication"))
+	@script(
+		gesture=None,
+		description= _("Emulates a mouse left click on focus"),
+		category= _("RemapApplicationsKey"))
 	def script_RunLeftMouse(self, gesture):
-				HiloComplemento(2).start()
+				executeFunction(2).start()
 
-	@script(gesture=None, description= _("Simular clic derecho del ratón al foco"), category= _("RemapKeyAplication"))
+	@script(
+		gesture=None,
+		description= _("Emulates a mouse right click on focus"),
+		category= _("RemapApplicationsKey"))
 	def script_RunRightMouse(self, gesture):
-				HiloComplemento(3).start()
+				executeFunction(3).start()
 
-class HiloComplemento(Thread):
+class executeFunction(Thread):
 	def __init__(self, opt):
-		super(HiloComplemento, self).__init__()
+		super(executeFunction, self).__init__()
 
 		self.opt = opt
 		self.daemon = True
@@ -55,13 +66,13 @@ class HiloComplemento(Thread):
 			obj=api.getFocusObject()
 			api.moveMouseToNVDAObject(obj)
 			mouseClick("left")
-			playWaveFile(os.path.join(globalVars.appArgs.configPath, "addons", "RemapKeyAplication", "globalPlugins", "RemapKeyAplication", "sonidos", "Click.wav"))
+			playWaveFile(os.path.join(globalVars.appArgs.configPath, "addons", "remapApplicationsKey", "globalPlugins", "remapApplicationsKey", "sounds", "Click.wav"))
 
 		def btnRightMouse():
 			obj=api.getFocusObject()
 			api.moveMouseToNVDAObject(obj)
 			mouseClick("right")
-			playWaveFile(os.path.join(globalVars.appArgs.configPath, "addons", "RemapKeyAplication", "globalPlugins", "RemapKeyAplication", "sonidos", "Click.wav"))
+			playWaveFile(os.path.join(globalVars.appArgs.configPath, "addons", "remapApplicationsKey", "globalPlugins", "remapApplicationsKey", "sounds", "Click.wav"))
 
 		if self.opt == 1:
 			wx.CallAfter(btnAplication)

@@ -1,49 +1,65 @@
 # Uygulama Tuşunu Yeniden Eşle
 
-Uygulama tuşu bulunmayan veya çalışmayan klavyeler için basit bir eklenti.  
 
-Uygulama tuşu olarak kullanmak istediğimiz kısa yolu tanımlamamız gerekir.  
-
-NVDA / Tercihler / Girdi hareketleri... / Uygulama tuşunu yeniden eşle'de istediğimiz kombinasyonu atayabiliriz.  
-
-
-## gözlemler  
-
-Bir tuş kombinasyonu veya tek bir tuş ataması yaparken, söz konusu kombinasyonun veya tuşun hiçbir uygulamada kullanılmadığını dikkate almalıyız.  
-
-Örneğin Ctrl + Aşağı Ok, sistemin çoğunda çalışabilir, ancak içerik menüsünün gösterilmesine izin vermeyerek bize Google Chrome'da bir hata verir.  
-
-Bir örnek genellikle sağ taraftaki üst sıradaki "print screen" tuşunu koyarım ve bu genellikle ikinci veya üçüncü tuştur.  
-
-## Çevirmenler ve katkıda bulunanlar:
-
-* Fransızca: Rémy Ruiz.  
-* Türkçe: Umut KORKMAZ.  
-
-# Sürüm Geçmişi:  
-## Sürüm 0.3:
-
-* Yerel NVDA uygulamaları anahtarının yerel Windows'a çağrılma modu değiştirildi.
-
-Uygulamalar anahtarını çağırma yolu, Windows ile daha güvenilir ve daha doğrudan bir yöntemle değiştirildi.
-
-* Odaklanmak için sol ve sağ fare tıklaması yeteneği eklendi.
-
-Girdi hareketleri iletişim kutusunda karşılık gelen tuş kombinasyonlarını atamamız gerekecek.
-
-Eylemi gerçekleştirdiğimizde, fare odağa taşınacak, ilgili tıklama yapılacak ve tıklamanın gerçekleştirildiğini belirten bir ses duyulacaktır.
+## Bilgi
+* Yazarlar: "Rui Fontes, Héctor J. Benítez Corredera'nın çalışmasına dayanmaktadır.
+* 01/09/2023 tarihinde güncellendi
+* [Kararlı sürümü indir][1]
+* Uyumluluk: NVDA sürüm 2019.3 ve sonrası.
 
 
-## Sürüm 0.2:
+## Sunum
+Klavyesinde Uygulama tuşu olmayan veya uygulama tuşu çalışmayan bilgisayarlar için basit eklenti.
+Uygulama tuşuna sahip olmak istediğimiz tuşu veya tuş kombinasyonunu tekrar atamamız gerekecektir.
+NVDA / Tercihler / Girdi Hareketleri... / Uygulama tuşunu yeniden eşle dalı altından istediğimiz kombinasyonu atayabiliriz.
 
-* NVDA 2022 ile uyumluluk.
-* Türkçe çeviri eklendi.
 
-## Sürüm 0.1.5:  
+## Gözlemler
+Bir tuş kombinasyonu veya tek tuş atarken bu kombinasyonun veya tuşun hiçbir uygulamada kullanılmadığını dikkate almamız gerekiyor.
+Örneğin, Ctrl + Aşağı Ok sistemin çoğunda işe yarayabilir ancak Google Chrome'da içerik menüsüne erişime izin vermeyen bir hata verir.
+Örnek vermek gerekirse, genellikle sağ üst satırda bulunan ve genellikle ikinci veya üçüncü tuş olan "printScreen" tuşunu kullanıyorum.
+NVDA'nın girdi yardımını kullanırsak hangisi olduğunu bulabiliriz; bunun için NVDA+1 tuşlarına basıyoruz ve klavyedeki tuşları keşfetmeye başlıyoruz. "printScreen" duyulduğunda aradığımız tuş bu olacaktır. Tekrar NVDA + 1 tuşuna basarak NVDA'nın girdi yardımından çıkabiliriz.
+Bu bir örnektir; tuş veya tuş kombinasyonunu seçme yetkisi kullanıcıya bırakılmıştır.
 
-* NVDA Eklentisindeki sorun düzeltildi.  
-* Fransızca çeviri eklendi.  
 
-## Sürüm 0.1:  
+## Çevirmenler ve işbirlikçileri:
+* İspanyolca: Rémy Ruiz
+* Fransızca: Remy Ruiz
+* Rusça: Valentin Kupriyanov
+* Ukraynaca: VovaMobile
+* Türkçe: Umut Korkmaz
 
-* İlk Sürüm.  
+
+## Değişiklik günlüğü:
+
+
+### Sürüm 2023.09.02
+* Artık Rui Fontes ve NVDA Portekiz ekibi tarafından sürdürülüyor
+* Artık kod İngilizce'ye dayanmaktadır.
+
+
+### Sürüm 0.4
+* Rusça, Ukraynaca ve Türkçe dilleri eklendi.
+* NVDA 2023.1 ile uyumluluk eklendi
+
+
+### Sürüm 0.3
+* Daha güvenilir ve daha doğrudan bir yöntem olduğundan, uygulama anahtarını yerel NVDA'dan yerel Windows'a çağırmanın yolu değiştirildi.
+* Odak üzerine sol ve sağ fare tıklaması olanağı eklendi.
+Girdi hareketi iletişim kutusunda karşılık gelen tuş kombinasyonlarını atamamız gerekecek.
+Eylemi uyguladığımızda fare odağa hareket edecek, ilgili tıklamayı yapacak ve tıklamanın gerçekleştirildiğini belirten bir ses duyulacaktır.
+
+
+### Sürüm 0.2
+* NVDA 2022 ile uyumluluk
+
+
+### Sürüm 0.1.5
+* NVDA eklentilerindeki sorun düzeltildi.
+* Fransızca dili eklendi.
+
+
+### Sürüm 0.1
+* İlk sürüm.
+
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.02/remapApplicationsKey-2023.09.02.nvda-addon

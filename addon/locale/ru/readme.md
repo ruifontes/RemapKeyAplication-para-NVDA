@@ -2,7 +2,7 @@
 
 
 ## Information
-* Authors: Rui Fontes based on the work of Héctor J. Benítez Corredera
+* Authors: "Rui Fontes based on the work of Héctor J. Benítez Corredera
 * Updated in 01/09/2023
 * Download [stable version][1]
 * Compatibility: NVDA version 2019.3 and beyond
@@ -11,7 +11,7 @@
 ## Presentation
 Simple add-on for those computers that do not have an applications key or whose applications key does not work.
 We will have to assign the key or combination of keys we want to have the applications key again.
-In NVDA / Preferences / Input Gestures... / RemapApplicationsKey we can assign the combination we desire.
+In NVDA / Preferences / Input Gestures... / RemapKeyAplication we can assign the combination we desire.
 
 
 ## Observations
@@ -23,6 +23,7 @@ This is an example, leaving it up to the user to choose their key or key combina
 
 
 ## Translators and collaborators:
+* Spanish: Rémy Ruiz
 * French: Rémy Ruiz
 * Russian: Valentin Kupriyanov
 * Ukrainian: VovaMobile
