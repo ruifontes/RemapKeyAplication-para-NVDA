@@ -3,13 +3,13 @@
 	"displayName": "Remap Applications key",
 	"URL": "",
 	"description": "Add-on to emulate applications key with other keys.",
-	"sha256": "74aab6d97a965b6715c5a2a54f834eb1027c1100ad11e1b07cb66f8e03c36224",
+	"sha256": "44b5ab51024877d172f21364aeac12e8193618c19cd1f1084cb6ce51f205d7ca",
 	"homepage": "https://github.com/ruifontes/RemapKeyAplication-para-NVDA",
-	"addonVersionName": "2023.09.02",
+	"addonVersionName": "2023.09.26",
 	"addonVersionNumber": {
 		"major": 2023,
 		"minor": 9,
-		"patch": 2
+		"patch": 26
 	},
 	"minNVDAVersion": {
 		"major": 2019,
@@ -17,7 +17,7 @@
 		"patch": 0
 	},
 	"lastTestedVersion": {
-		"major": 2023,
+		"major": 2024,
 		"minor": 1,
 		"patch": 0
 	},
