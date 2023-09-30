@@ -29,17 +29,24 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(
 		gesture=None,
+		description= _("Emulates shift + applications key"),
+		category= _("RemapApplicationsKey"))
+	def script_RunShiftAplicationn(self, gesture):
+				executeFunction(2).start()
+
+	@script(
+		gesture=None,
 		description= _("Emulates a mouse left click on focus"),
 		category= _("RemapApplicationsKey"))
 	def script_RunLeftMouse(self, gesture):
-				executeFunction(2).start()
+				executeFunction(3).start()
 
 	@script(
 		gesture=None,
 		description= _("Emulates a mouse right click on focus"),
 		category= _("RemapApplicationsKey"))
 	def script_RunRightMouse(self, gesture):
-				executeFunction(3).start()
+				executeFunction(4).start()
 
 class executeFunction(Thread):
 	def __init__(self, opt):
@@ -62,6 +69,11 @@ class executeFunction(Thread):
 			api.moveMouseToNVDAObject(obj)
 			keyFunc.key_aplicacion()
 
+		def btnShiftAplication():
+			obj=api.getFocusObject()
+			api.moveMouseToNVDAObject(obj)
+			keyFunc.key_shift_aplicacion()
+
 		def btnLeftMouse():
 			obj=api.getFocusObject()
 			api.moveMouseToNVDAObject(obj)
@@ -77,6 +89,8 @@ class executeFunction(Thread):
 		if self.opt == 1:
 			wx.CallAfter(btnAplication)
 		elif self.opt == 2:
-			wx.CallAfter(btnLeftMouse)
+			wx.CallAfter(btnShiftAplication)
 		elif self.opt == 3:
+			wx.CallAfter(btnLeftMouse)
+		elif self.opt == 4:
 			wx.CallAfter(btnRightMouse)

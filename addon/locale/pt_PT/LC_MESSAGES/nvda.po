@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'RemapKeyAplication'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-08-30 19:12+0100\n"
-"PO-Revision-Date: 2023-08-30 19:30+0100\n"
+"POT-Creation-Date: 2023-09-30 18:00+0100\n"
+"PO-Revision-Date: 2023-09-30 18:09+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
-"Language-Team: \n"
+"Language-Team: Equipa portuguesa do NVDA\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,19 +20,24 @@ msgstr ""
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:25
 msgid "Emulates applications key"
-msgstr "Emula a tecla das aplicações"
+msgstr "Emula a tecla aplicações"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:26
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:33
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:40
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:47
 msgid "RemapApplicationsKey"
 msgstr "Substituir a tecla Aplicações"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:32
+msgid "Emulates shift + applications key"
+msgstr "Emula o comando shift + tecla aplicações"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
 msgid "Emulates a mouse left click on focus"
 msgstr "Emula um clique esquerdo do rato no foco"
 
-#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:46
 msgid "Emulates a mouse right click on focus"
 msgstr "Emula um clique com o botão direito do rato no foco"
 

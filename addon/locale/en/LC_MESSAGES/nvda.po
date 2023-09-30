@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'RemapKeyAplication'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-08-30 19:12+0100\n"
-"PO-Revision-Date: 2023-08-30 19:16+0100\n"
+"POT-Creation-Date: 2023-09-30 18:00+0100\n"
+"PO-Revision-Date: 2023-09-30 18:04+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -27,16 +27,23 @@ msgstr "Simuler la touche Applications"
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:26
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:33
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:40
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:47
 #, fuzzy
 #| msgid "RemapKeyAplication"
 msgid "RemapApplicationsKey"
 msgstr "RemapKeyAplication"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:32
+#, fuzzy
+#| msgid "Simula la tecla aplicaciones"
+msgid "Emulates shift + applications key"
+msgstr "Simuler la touche Applications"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
 msgid "Emulates a mouse left click on focus"
 msgstr ""
 
-#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:46
 msgid "Emulates a mouse right click on focus"
 msgstr ""
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'RemapKeyAplication'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-08-30 19:12+0100\n"
-"PO-Revision-Date: 2023-09-01 09:39+0300\n"
+"POT-Creation-Date: 2023-09-30 18:00+0100\n"
+"PO-Revision-Date: 2023-09-30 18:11+0100\n"
 "Last-Translator: Heorhii <nvda.translation.uk@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -26,14 +26,21 @@ msgstr "Імітує клавішу контекстного меню"
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:26
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:33
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:40
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:47
 msgid "RemapApplicationsKey"
 msgstr "RemapApplicationsKey"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:32
+#, fuzzy
+#| msgid "Emulates applications key"
+msgid "Emulates shift + applications key"
+msgstr "Імітує клавішу контекстного меню"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
 msgid "Emulates a mouse left click on focus"
 msgstr "Імітує клацання лівою кнопкою миші на фокусі"
 
-#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:46
 msgid "Emulates a mouse right click on focus"
 msgstr "Імітує клацання правою кнопкою миші на фокусі"
 

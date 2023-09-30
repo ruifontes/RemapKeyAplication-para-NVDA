@@ -3,7 +3,7 @@
 
 ## Bilgi
 * Yazarlar: "Rui Fontes, Héctor J. Benítez Corredera'nın çalışmasına dayanmaktadır.
-* 01/09/2023 tarihinde güncellendi
+* 30/09/2023 tarihinde güncellendi
 * [Kararlı sürümü indir][1]
 * Uyumluluk: NVDA sürüm 2019.3 ve sonrası.
 
@@ -62,4 +62,4 @@ Eylemi uyguladığımızda fare odağa hareket edecek, ilgili tıklamayı yapaca
 ### Sürüm 0.1
 * İlk sürüm.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.26/remapApplicationsKey-2023.09.26.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.30/remapApplicationsKey-2023.09.30.nvda-addon

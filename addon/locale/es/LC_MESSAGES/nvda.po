@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'RemapKeyAplication'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-08-30 19:12+0100\n"
-"PO-Revision-Date: 2023-09-01 17:18+0200\n"
+"POT-Creation-Date: 2023-09-30 18:00+0100\n"
+"PO-Revision-Date: 2023-09-30 18:05+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:25
 msgid "Emulates applications key"
@@ -25,14 +25,19 @@ msgstr "Emula la tecla aplicaciones"
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:26
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:33
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:40
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:47
 msgid "RemapApplicationsKey"
 msgstr "RemapApplicationsKey"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:32
+msgid "Emulates shift + applications key"
+msgstr "Emula las teclas Mayús + Aplicaciones"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
 msgid "Emulates a mouse left click on focus"
 msgstr "Emula un clic izquierdo del ratón al foco"
 
-#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:46
 msgid "Emulates a mouse right click on focus"
 msgstr "Emula un clic derecho del ratón al foco"
 

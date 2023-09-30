@@ -3,14 +3,14 @@
 
 ## Informações
 * Author: Rui Fontes baseado no trabalho de Héctor J. Benítez Corredera
-* actualizado em 01/09/2023
+* actualizado em 30/09/2023
 * Descarregar a [versão estável][1]
 * Compatibilidade: NVDA versão 2019.3 e seguintes
 
 
 ## Apresentação
 Este é um complemento simples para aqueles computadores que não tenham a tecla Aplicações, ou cuja tecla Aplicações não funcione.
-
+Também é útil no Explorador de ficheiros do Windows 11 compilação  22621 e mais recentes, uma vez que permite atribuir uma tecla à combinação Shift+tecla de aplicações, utilizada para apresentar o menu de contexto completo. A partir desta versão do Windows, a tecla de aplicações mostra apenas uma versão reduzida do menu de contexto, pelo que, se atribuir a tecla de aplicações à combinação Shift+tecla de aplicações, abrirá sempre o menu de contexto completo...
 É necessário atribuir a tecla ou combinação de teclas que desejarmos para voltar a ter a tecla Aplicações.
 No diálogo Gestos de Entrada, categoria Mapear tecla Aplicações, poderemos atribuir a combinação que desejarmos.
 
@@ -30,6 +30,12 @@ Podemos saber quais as teclas que pretendemos usando a ajuda de entrada do NVDA;
 
 
 ## Registo de alterações
+
+
+### Versão 2023.09.30
+* Na versão 2023.09.02 a compatibilidade com o NVDA foi estendida para a versão 2024.1;
+* Agora também é possível atribuir um comando a Shift+tecla de aplicações;
+* Desta forma, se atribuir a tecla de aplicações a Shift+tecla de aplicações, o menu de contexto completo será sempre aberto.
 
 
 ### Versão 2023.09.02
@@ -62,4 +68,4 @@ Podemos saber quais as teclas que pretendemos usando a ajuda de entrada do NVDA;
 * Versão inicial.
 
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.26/remapApplicationsKey-2023.09.26.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.30/remapApplicationsKey-2023.09.30.nvda-addon

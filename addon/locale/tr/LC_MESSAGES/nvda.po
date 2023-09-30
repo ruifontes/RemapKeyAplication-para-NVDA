@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'Uygulama Tuşunu yeniden eşle'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-08-30 19:12+0100\n"
-"PO-Revision-Date: 2023-08-30 22:49+0100\n"
+"POT-Creation-Date: 2023-09-30 18:00+0100\n"
+"PO-Revision-Date: 2023-09-30 18:10+0100\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -26,14 +26,21 @@ msgstr "Uygulama tuşunu Taklit eder"
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:26
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:33
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:40
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:47
 msgid "RemapApplicationsKey"
 msgstr "Uygulama Tuşunu Yeniden Eşle"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:32
+#, fuzzy
+#| msgid "Emulates applications key"
+msgid "Emulates shift + applications key"
+msgstr "Uygulama tuşunu Taklit eder"
+
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
 msgid "Emulates a mouse left click on focus"
 msgstr "Odak üzerinde farenin sol tıklamasını taklit eder"
 
-#: addon\globalPlugins\remapApplicationsKey\__init__.py:39
+#: addon\globalPlugins\remapApplicationsKey\__init__.py:46
 msgid "Emulates a mouse right click on focus"
 msgstr "Odak üzerinde farenin sağ tıklamasını taklit eder"
 

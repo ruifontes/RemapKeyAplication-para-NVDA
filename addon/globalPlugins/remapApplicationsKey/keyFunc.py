@@ -31,6 +31,7 @@ MAPVK_VK_TO_VSC = 0
 VK_LBUTTON = 0x01 # Mouse left button
 VK_RBUTTON = 0x02 # Mouse right button
 VK_APPS = 0x5D # Applications key (Natural keyboard)
+VK_SHIFT = 0x10 # Shift key
 
 # C struct definitions
 
@@ -108,3 +109,9 @@ def ReleaseKey(hexKeyCode):
 def key_aplicacion():
 	PressKey(VK_APPS)
 	ReleaseKey(VK_APPS)
+
+def key_shift_aplicacion():
+	PressKey(VK_SHIFT)
+	PressKey(VK_APPS)
+	ReleaseKey(VK_APPS)
+	ReleaseKey(VK_SHIFT)
