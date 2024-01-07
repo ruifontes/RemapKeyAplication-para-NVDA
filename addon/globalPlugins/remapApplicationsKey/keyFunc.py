@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # RemapApplicationsKey add-on: Key presses functions
 # Copyright (C) 2021 Héctor J. Benítez Corredera <xebolax@gmail.com>
-# Copyright (C) 2023 Rui Fontes <rui.fontes@tiflotecnia.com>
+# Copyright (C) 2023/2024 Rui Fontes <rui.fontes@tiflotecnia.com>
 # This file is covered by the GNU General Public License.
 #
 # Code get from:

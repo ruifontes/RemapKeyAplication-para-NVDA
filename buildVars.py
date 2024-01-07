@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Add-on to emulate applications key with other keys."""),
 	# version
-	"addon_version": "2023.09.30",
+	"addon_version": "2024.01.07",
 	# Author(s)
 	"addon_author": "Rui Fontes based on the work of Héctor J. Benítez Corredera",
 	# URL for the add-on documentation support

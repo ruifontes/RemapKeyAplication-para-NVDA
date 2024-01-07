@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'RemapKeyAplication'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2023-09-30 18:00+0100\n"
-"PO-Revision-Date: 2023-09-30 18:11+0100\n"
+"PO-Revision-Date: 2023-12-19 20:08+0000\n"
 "Last-Translator: Heorhii <nvda.translation.uk@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:25
 msgid "Emulates applications key"
@@ -31,10 +31,8 @@ msgid "RemapApplicationsKey"
 msgstr "RemapApplicationsKey"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:32
-#, fuzzy
-#| msgid "Emulates applications key"
 msgid "Emulates shift + applications key"
-msgstr "Імітує клавішу контекстного меню"
+msgstr "Імітує shift + клавішу контекстного меню."
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:39
 msgid "Emulates a mouse left click on focus"

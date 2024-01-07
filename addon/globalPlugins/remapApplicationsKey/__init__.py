@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # NVDA add-on to emulate Applications key and mouse clicks
 # Copyright (C) 2021 Héctor J. Benítez Corredera <xebolax@gmail.com>
-# Copyright (C) 2023 Rui Fontes <rui.fontes@tiflotecnia.com>
+# Copyright (C) 2023/2024 Rui Fontes <rui.fontes@tiflotecnia.com>
 # This file is covered by the GNU General Public License.
 
 # import the necessary modules

@@ -3,7 +3,7 @@
 
 ## Information
 * Authors: Rui Fontes based on the work of Héctor J. Benítez Corredera
-* Updated in 30/09/2023
+* Updated in 07/01/2024
 * Download [stable version][1]
 * Compatibility: NVDA version 2019.3 and beyond
 
@@ -11,8 +11,7 @@
 ## Presentation
 Simple add-on for those computers that do not have an applications key or whose applications key does not work.
 It is also usefull in the File explorer of Windows 11 build 22621 and laters, since it allows to assign a key to the combination Shift+applications key, used to display the full context menu. Starting in this Windows build, applications key only shows a stripped version of context menu.
-So, if you assign the applications key to Shift+applications key you will always open the full context menu...
-It is necessary to assign the key or combination of keys we want to have the applications key again.
+It is necessary to assign the key or combination of keys we want to replace applications key.
 In NVDA / Preferences / Input Gestures... / RemapApplicationsKey we can assign the combination we desire.
 
 
@@ -37,7 +36,6 @@ This is an example, leaving it up to the user to choose their key or key combina
 ### Version 2023.09.30
 * In the 2023.09.26 NVDA compatibility was extended to version 2024.1;
 * Now it is also possible to assign a keystroke to Shift+application key;
-* That way, if you assign applications key to Shift+applications key the full context menu will be always open.
 
 
 ### Version 2023.09.02
@@ -69,4 +67,4 @@ When we execute the action, the mouse will move to the focus and make the corres
 ### Version 0.1
 * Initial version.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.30/remapApplicationsKey-2023.09.30.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon

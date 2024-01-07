@@ -3,7 +3,7 @@
 
 ## Information
 * Auteurs : Rui Fontes basé sur le travail de Héctor J. Benítez Corredera
-* Mis à jour le 01/09/2023
+* Mis à jour le 07/01/2024
 * Télécharger [version stable][1]
 * Compatibilité NVDA : version 2019.3 et ultérieure
 
@@ -61,5 +61,4 @@ Lorsque nous exécutons l'action, la souris se déplacera au focus et fera le cl
 
 ### Version 0.1
 * Version initiale.
-
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.30/remapApplicationsKey-2023.09.30.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon

@@ -3,7 +3,7 @@
 
 ## Bilgi
 * Yazarlar: "Rui Fontes, Héctor J. Benítez Corredera'nın çalışmasına dayanmaktadır.
-* 30/09/2023 tarihinde güncellendi
+* 07/01/2024 tarihinde güncellendi
 * [Kararlı sürümü indir][1]
 * Uyumluluk: NVDA sürüm 2019.3 ve sonrası.
 
@@ -11,6 +11,8 @@
 ## Sunum
 Klavyesinde Uygulama tuşu olmayan veya uygulama tuşu çalışmayan bilgisayarlar için basit eklenti.
 Uygulama tuşuna sahip olmak istediğimiz tuşu veya tuş kombinasyonunu tekrar atamamız gerekecektir.
+Ayrıca Windows 11 build 22621 ve sonraki sürümlerin Dosya gezgininde de kullanışlıdır, çünkü tam bağlam menüsünü görüntülemek için kullanılan Shift+uygulama tuşu kombinasyonuna bir tuş atamaya olanak tanır. Bu Windows yapısından başlayarak, uygulama tuşu yalnızca bağlam menüsünün sadeleştirilmiş bir sürümünü gösterir.
+Uygulama tuşunun yerine kullanmak istediğimiz tuş veya tuş kombinasyonunu atamamız gerekmektedir.
 NVDA / Tercihler / Girdi Hareketleri... / Uygulama tuşunu yeniden eşle dalı altından istediğimiz kombinasyonu atayabiliriz.
 
 
@@ -31,6 +33,12 @@ Bu bir örnektir; tuş veya tuş kombinasyonunu seçme yetkisi kullanıcıya bı
 
 
 ## Değişiklik günlüğü:
+
+### Sürüm 2023.09.30
+
+* 26.09.2023 tarihinde NVDA uyumluluğu 2024.1 sürümüne genişletildi;
+* Artık Shift+uygulama tuşuna bir hareket atamak da mümkün;
+* Bu şekilde, uygulamalar tuşu Shift+uygulama tuşuna atanırsa, tam içerik menüsü her zaman açık olacaktır.
 
 
 ### Sürüm 2023.09.02
@@ -62,4 +70,4 @@ Eylemi uyguladığımızda fare odağa hareket edecek, ilgili tıklamayı yapaca
 ### Sürüm 0.1
 * İlk sürüm.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2023.09.30/remapApplicationsKey-2023.09.30.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon
