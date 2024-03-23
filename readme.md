@@ -3,7 +3,7 @@
 
 ## Information
 * Authors: Rui Fontes based on the work of Héctor J. Benítez Corredera
-* Updated in 07/01/2024
+* Updated in 22/03/2024
 * Download [stable version][1]
 * Compatibility: NVDA version 2019.3 and beyond
 
@@ -67,4 +67,4 @@ When we execute the action, the mouse will move to the focus and make the corres
 ### Version 0.1
 * Initial version.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon

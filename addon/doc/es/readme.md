@@ -3,7 +3,7 @@
 
 ## Información
 * Autores: Rui Fontes basado en el trabajo de Héctor J. Benítez Corredera
-* Actualizado el 07/01/2024
+* Actualizado el 22/03/2024
 * Descargar [versión estable][1]
 * Compatibilidad con NVDA: versión 2019.3 y posteriores
 
@@ -62,4 +62,4 @@ Cuando ejecutemos la acción se moverá el ratón al foco y se hará el correspo
 ### Versión 0.1
 * Versión inicial.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon

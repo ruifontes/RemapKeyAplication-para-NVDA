@@ -3,7 +3,7 @@
 
 ## Інформація
 * Автори: Rui Fontes, засновано на роботі від Héctor J. Benítez Corredera
-* Оновлено 07/01/2024
+* Оновлено 22/03/2024
 * Завантажити [стабільну версію][1]
 * Сумісність: NVDA версія 2019.3 і пізніші
 
@@ -68,4 +68,4 @@ When we execute the action, the mouse will move to the focus and make the corres
 ### Version 0.1
 * Initial version.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon

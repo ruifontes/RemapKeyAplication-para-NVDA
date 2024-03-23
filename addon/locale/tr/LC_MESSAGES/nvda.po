@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'Uygulama Tuşunu yeniden eşle'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-09-30 18:00+0100\n"
-"PO-Revision-Date: 2024-01-03 20:47+0300\n"
+"POT-Creation-Date: 2024-03-22 20:32+0000\n"
+"PO-Revision-Date: 2024-03-22 20:37+0000\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -52,7 +52,11 @@ msgstr "Uygulama Tuşunu Yeniden Eşle"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
-msgid "Add-on to emulate applications key with other keys."
+#, fuzzy
+#| msgid "Add-on to emulate applications key with other keys."
+msgid ""
+"Add-on to emulate applications and shift+applications keystrokes with other "
+"keys."
 msgstr "Uygulama tuşunu diğer tuşlarla taklit etmek için eklenti."
 
 #~ msgid "RemapKeyAplication para NVDA"

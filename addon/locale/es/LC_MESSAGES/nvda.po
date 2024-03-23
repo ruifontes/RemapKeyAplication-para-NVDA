@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'RemapKeyAplication'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-09-30 18:00+0100\n"
-"PO-Revision-Date: 2023-09-30 18:05+0100\n"
+"POT-Creation-Date: 2024-03-22 20:32+0000\n"
+"PO-Revision-Date: 2024-03-22 20:34+0000\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: addon\globalPlugins\remapApplicationsKey\__init__.py:25
 msgid "Emulates applications key"
@@ -51,7 +51,11 @@ msgstr "Remapear tecla aplicaciones"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
-msgid "Add-on to emulate applications key with other keys."
+#, fuzzy
+#| msgid "Add-on to emulate applications key with other keys."
+msgid ""
+"Add-on to emulate applications and shift+applications keystrokes with other "
+"keys."
 msgstr "Complemento para emular la tecla aplicaciones con otras teclas."
 
 #~ msgid "RemapKeyAplication para NVDA"

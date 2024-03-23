@@ -3,7 +3,7 @@
 
 ## Informações
 * Author: Rui Fontes baseado no trabalho de Héctor J. Benítez Corredera
-* actualizado em 07/01/2024
+* actualizado em 22/03/2024
 * Descarregar a [versão estável][1]
 * Compatibilidade: NVDA versão 2019.3 e seguintes
 
@@ -69,4 +69,4 @@ Por exemplo, eu costumo usar as teclas  à direita da barra de espaços, ou seja
 * Versão inicial.
 
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.01.07/remapApplicationsKey-2024.01.07.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon
