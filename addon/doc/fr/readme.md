@@ -61,4 +61,4 @@ Lorsque nous exécutons l'action, la souris se déplacera au focus et fera le cl
 
 ### Version 0.1
 * Version initiale.
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2025.07.14/remapApplicationsKey-2025.07.14.nvda-addon

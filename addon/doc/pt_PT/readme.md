@@ -69,4 +69,4 @@ Por exemplo, eu costumo usar as teclas  à direita da barra de espaços, ou seja
 * Versão inicial.
 
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2025.07.14/remapApplicationsKey-2025.07.14.nvda-addon

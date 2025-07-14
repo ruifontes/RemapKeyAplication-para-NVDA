@@ -62,4 +62,4 @@ Cuando ejecutemos la acción se moverá el ratón al foco y se hará el correspo
 ### Versión 0.1
 * Versión inicial.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2025.07.14/remapApplicationsKey-2025.07.14.nvda-addon

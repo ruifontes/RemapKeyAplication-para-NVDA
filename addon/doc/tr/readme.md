@@ -70,4 +70,4 @@ Eylemi uyguladığımızda fare odağa hareket edecek, ilgili tıklamayı yapaca
 ### Sürüm 0.1
 * İlk sürüm.
 
-[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2024.03.22/remapApplicationsKey-2024.03.22.nvda-addon
+[1]: https://github.com/ruifontes/RemapKeyAplication-para-NVDA/releases/download/2025.07.14/remapApplicationsKey-2025.07.14.nvda-addon

@@ -3,13 +3,13 @@
 	"displayName": "Remap Applications key",
 	"URL": "",
 	"description": "Add-on to emulate applications and shift+applications keystrokes with other keys.",
-	"sha256": "60e7aa440424b3ea22fcd2aa2814fdfdf61d07958aab9a7e760401e972c1d9cb",
+	"sha256": "7beaa77577a2c0c76397dd6e9a571a031b999ec8de3f373605186297524c1e2c",
 	"homepage": "https://github.com/ruifontes/RemapKeyAplication-para-NVDA",
-	"addonVersionName": "2024.03.22",
+	"addonVersionName": "2025.07.14",
 	"addonVersionNumber": {
-		"major": 2024,
-		"minor": 3,
-		"patch": 22
+		"major": 2025,
+		"minor": 7,
+		"patch": 14
 	},
 	"minNVDAVersion": {
 		"major": 2019,
@@ -17,7 +17,7 @@
 		"patch": 0
 	},
 	"lastTestedVersion": {
-		"major": 2024,
+		"major": 2025,
 		"minor": 1,
 		"patch": 0
 	},
